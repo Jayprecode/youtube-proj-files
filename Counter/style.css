@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #1e2d3a;
+    background: linear-gradient(to right,  #ff4e50, #f9d423);
+
+}
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+}
+@media (max-width: 768px) {
+    .container #value {
+        margin-top: 40%;
+    }
+    .button-container {
+        margin-bottom: -50%;
+        margin-left: -2%;
+    }
+}
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                    0px 8px 13px rgba(0, 0, 0, 0.1),
+                    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+#value {
+    position: absolute;
+    margin-top: 15%;
+    font-size: 7.5em;
+    font-weight: 700;
+    text-shadow: 0px 6px 3px rgba(0, 0, 0, 0.8),
+                    0px 8px 13px rgba(0, 0, 0, 0.1),
+                    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+.button-container {
+    position: absolute;
+    margin-top: 35%;
+    margin-left: -2%;
+}
+.btn {
+    font-size: 20px;
+    border-radius: 5px;
+    color:  #1e2d3a;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                    0px 8px 13px rgba(0, 0, 0, 0.1),
+                    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+.btn:hover {
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.0),
+                0px 8px 13px rgba(0, 0, 0, 0.1),
+                0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+.decrease {
+    margin-bottom: 120px;
+    margin-right: 10px;
+    font-family: 'Raleway';
+}
+.increase {
+    margin-bottom: 120px;
+    margin-left: 10px;
+}
