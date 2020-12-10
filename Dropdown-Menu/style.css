@@ -1,0 +1,72 @@
+html {
+    font-family: cursive;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+i {
+    color: #fff;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: #000000;
+    position: relative;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+ul li:hover {
+    background: gray;
+}
+ul ul {
+    position: absolute;
+    min-width: 200px;
+    background: #000;
+    display: none;
+}
+ul ul li {
+    display: block;
+    background: #292929;
+}
+ul li:hover ul {
+    display: block;
+}
+ul li i {
+    color: #fff;
+    float: right;
+    padding-left: 20px;
+}
+nav div {
+    background: #000000;
+    color: #292929;
+    font-size: 24px;
+    padding: 0.6em;
+    cursor: pointer;
+    display: none;
+}
+@media(max-width: 768px) {
+    nav div {
+        display: block;
+    }
+    ul {
+        display: none;
+        position: static;
+        background: #000;
+    }
+    ul li {
+        display: block;
+    }
+    ul ul {
+        position: static;
+        background: #000;
+    }
+}
