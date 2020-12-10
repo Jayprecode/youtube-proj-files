@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background: #363e45;
+}
+.box span {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background: #ce482a;
+    animation: lol 4s infinite;
+}
+@keyframes lol {
+    0% {
+        margin: 0;
+    }
+    25% {
+        margin: 0 0 0 120px;
+    }
+    50% {
+        margin: 120px 0 0 120px;
+    }
+    75% {
+        margin: 120px 120px 0 0;
+    }
+    100% {
+        margin: 0 0 120px 0;
+    }
+}
+
+
+
