@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #171717;
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: #1f1f1f;
+    border-radius: 10px;
+}
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background: #222222;
+    border-radius: 10px;
+    color: #fff;
+}
+.input {
+    width: 215px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #2c2c2c;
+    color: #fff;
+    outline: none;
+}
