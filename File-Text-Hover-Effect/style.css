@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background: #8244ad;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+}
+.text:before {
+    content: 'Jayprecode';
+    color: #3488db;
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+    transition: 0.8s;
+}
+.text:hover:before {
+    width: 100%;
+}
